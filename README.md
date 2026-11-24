@@ -1,9 +1,9 @@
 # AWS Cloud Security: IAM Least Privilege & S3 Baseline
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates the foundational cloud security concept of **Least Privilege** in AWS. The objective was to configure an Amazon S3 environment and create a programmatic IAM user that is strictly limited to read-only access for a specific bucket, ensuring they cannot delete, modify, or access any other resources in the AWS account.
 
-## 🏗️ Architecture & Configuration
+##  Architecture & Configuration
 The project was implemented in an AWS Sandbox environment and consists of the following components:
 
 **1. Amazon S3 (Storage):**
@@ -15,7 +15,7 @@ The project was implemented in an AWS Sandbox environment and consists of the fo
 * **Custom Policy (`S3ReadOnlySpecificBucket`):** Authored a custom JSON policy that explicitly allows `s3:ListBucket` and `s3:GetObject`, scoped strictly to the specific bucket ARN and its contents.
 * **IAM User (`s3-readonly-user`):** Created a programmatic user and attached the custom policy directly.
 
-## 💻 The IAM Policy (JSON)
+##  The IAM Policy (JSON)
 Below is the exact policy used to enforce the least privilege principle:
 
 ```json
