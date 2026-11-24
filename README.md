@@ -1,4 +1,4 @@
- AWS Cloud Security: IAM Least Privilege & S3 Baseline
+# AWS Cloud Security: IAM Least Privilege & S3 Baseline
 
 ## 📌 Project Overview
 This project demonstrates the foundational cloud security concept of **Least Privilege** in AWS. The objective was to configure an Amazon S3 environment and create a programmatic IAM user that is strictly limited to read-only access for a specific bucket, ensuring they cannot delete, modify, or access any other resources in the AWS account.
@@ -65,3 +65,4 @@ S3 Bucket Configuration:
 
 Access Key Generated:
 <img width="1358" height="603" alt="Screenshot 2026-11-24 100518" src="https://github.com/user-attachments/assets/91a1d839-227e-4ea4-82e0-02c786b162ac" />
+
